@@ -40,7 +40,7 @@ def rename_files(directory_path, extension=None):
             new_file_path = os.path.join(directory_path, new_file_name)
             os.rename(old_file_path, new_file_path)
             print(f'Renamed: {file_name} to {new_file_name}')
-            time.sleep(0.1)
+            time.sleep(0.11)
 
 
 if __name__ == '__main__':
